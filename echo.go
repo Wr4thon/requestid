@@ -2,7 +2,7 @@ package requestid
 
 import "github.com/labstack/echo/v4"
 
-// EchoMiddleware puts the requestID into the echo context.
+// EchoMiddleware puts the requestID into the context value.
 func EchoMiddleware() echo.MiddlewareFunc {
 	return func(handlerFunc echo.HandlerFunc) echo.HandlerFunc {
 		return func(c echo.Context) error {

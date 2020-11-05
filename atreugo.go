@@ -6,7 +6,7 @@ import (
 	"github.com/savsgio/atreugo/v10"
 )
 
-// AtreugoMiddleware puts the requestID into the atreugo context.
+// AtreugoMiddleware puts the requestID into the context value.
 func AtreugoMiddleware() atreugo.Middleware {
 	return func(ctx *atreugo.RequestCtx) error {
 		attachedCtx := ctx.AttachedContext()
