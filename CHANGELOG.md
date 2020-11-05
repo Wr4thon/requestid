@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - golangci-lint configuration
 - LICENSE file (Apache 2.0)
 - description and example code
+- added AUTHORS file
 - this changelog
 
 ### Changed
