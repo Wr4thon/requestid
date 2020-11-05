@@ -5,9 +5,10 @@ this repository is a collection of middlewares, used to get a requestID from an 
 ## supported frameworks
 
 | Framework | Support | Version |
-|:----------|:-------:|--------:|
-| Resty     |    ✓    |       2 |
-| Echo      |    ✓    |       4 |
+|:----------|:-------:|:--------:|
+| Resty     |    ✓    |      v2 |
+| Echo      |    ✓    |      v4 |
+| Atreugo   |    ✓    |     v10 |
 
 ## how to install
 
