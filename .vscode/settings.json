@@ -1,0 +1,34 @@
+{
+  "cSpell.words": [
+    "Errorf",
+    "Fatalf",
+    "Infof",
+    "Struct",
+    "Warnf",
+    "dupl",
+    "errcheck",
+    "funcs",
+    "gochecknoglobals",
+    "goconst",
+    "gocritic",
+    "gocyclo",
+    "goerr",
+    "goimports",
+    "golangci",
+    "golint",
+    "gomnd",
+    "govet",
+    "labstack",
+    "logutils",
+    "middlewares",
+    "multiline",
+    "nakedret",
+    "prealloc",
+    "printf",
+    "savsgio"
+  ],
+  "markdownlint.config": {
+    "default": true,
+    "MD010": false,
+  }
+}
