@@ -29,6 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial support for resty v2
 - Initial support for echo v4
 
-[Unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/Wr4thon/requestid/compare/v0.2.0...HEAD
 [0.2.0]: https://github.com/Wr4thon/requestid/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/Wr4thon/requestid/releases/tag/v0.1.0
