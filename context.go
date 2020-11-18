@@ -5,6 +5,12 @@ import (
 	"errors"
 )
 
+const (
+	// HeaderXRequestID is the default header for request IDs
+	// Correlates HTTP requests between a client and server.
+	HeaderXRequestID = "X-Request-ID"
+)
+
 type (
 	requestIDKey struct{}
 )

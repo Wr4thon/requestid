@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- The project structure to support more than one version of a framework
+  - moved resty v2 middleware to [here](https://github.com/Wr4thon/requestid/tree/v1.0.0/resty/v2)
+  - moved atreugo v10 middleware to [here](https://github.com/Wr4thon/requestid/tree/v1.0.0/atreugo/v10)
+  - moved atreugo v11 middleware to [here](https://github.com/Wr4thon/requestid/tree/v1.0.0/atreugo/v11)
+  - moved echo v4 middleware to [here](https://github.com/Wr4thon/requestid/tree/v1.0.0/echo/v4)
+
+### Added
+
+- Added support for Atreugo v10
+- Added support for Atreugo v11
+
 ## [0.3.0] - 2020-11-16
 
 ### Removed
