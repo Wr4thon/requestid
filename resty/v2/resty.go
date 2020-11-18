@@ -1,11 +1,8 @@
 package requestid
 
 import (
+	"github.com/Wr4thon/requestid/v1"
 	resty "github.com/go-resty/resty/v2"
-)
-
-const (
-	headerXRequestID = "X-Request-ID"
 )
 
 // RestyMiddleware gets the requestID from the context
@@ -13,7 +10,7 @@ const (
 func RestyMiddleware(c *resty.Client, r *resty.Request) error {
 	rID, err := Get(r.Context())
 	if err == nil {
-		r.SetHeader(headerXRequestID, rID)
+		r.SetHeader(requestid.HeaderXRequestID, rID)
 	}
 
 	return nil
