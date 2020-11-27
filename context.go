@@ -41,3 +41,16 @@ func Get(ctx context.Context) (requestID string, err error) {
 
 	return
 }
+
+// Copy gets the requestID from the source context, and copies it over
+// to the target context.
+func Copy(source context.Context, target *context.Context) error {
+	requestID, err := Get(source)
+	if err != nil {
+		return err
+	}
+
+	*target = Set(*target, requestID)
+
+	return nil
+}
