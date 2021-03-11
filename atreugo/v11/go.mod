@@ -1,4 +1,4 @@
-module github.com/Wr4thon/requestid/atreugo/v10
+module github.com/Wr4thon/requestid/atreugo/v11
 
 go 1.15
 
